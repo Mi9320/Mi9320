@@ -18,7 +18,7 @@ I build end-to-end ArcPy workflows — from CRS auditing and reprojection to aut
 Automated ArcPy pipeline processing City of Toronto road network and ward boundary data. Covers CRS auditing, field standardization, UTM zone detection, reprojection to NAD83 CSRS UTM Zone 17N, and automated ward-level PDF export using `arcpy.mp`.
 
 **Tech:** Python · ArcPy · arcpy.mp · NAD83 CSRS UTM Zone 17N (EPSG 26917)  
-🔗 [GitHub Repo](https://github.com/Mi9320/toronto-urban-data-pipeline) &nbsp;·&nbsp; [StoryMap](https://storymaps.arcgis.com/stories/0f4734efb7d54ab6bf10f5b9f488b952)
+🔗 [GitHub Repo](https://github.com/Mi9320/toronto-urban-data-pipeline) &nbsp;·&nbsp;
 
 ---
 
