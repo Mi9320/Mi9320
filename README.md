@@ -14,7 +14,7 @@ I build end-to-end ArcPy workflows — from CRS auditing and reprojection to aut
 
 ## Featured Projects
 
-### 🔹 Ottawa Microclimate & Canopy Analytics Platform
+### 🔷 Ottawa Microclimate & Canopy Analytics Platform
 Built a spatial ETL pipeline processing 300,000+ municipal tree records and Landsat 9 thermal imagery across 116 Ottawa neighbourhoods. Quantified the inverse correlation between urban canopy density and surface heat island intensity, published as a live ArcGIS Online dashboard.
 
 **Tech:** FME • Python (ArcPy) • ArcGIS Online • Landsat 9 • Sentinel-2
@@ -22,11 +22,11 @@ Built a spatial ETL pipeline processing 300,000+ municipal tree records and Land
 
 ---
 
-### 🔹 Automated Spatial QA/QC Pipeline for Municipal Utility Networks
+### 🔷 Automated Spatial QA/QC Pipeline for Municipal Utility Networks
 Automated FME and ArcPy spatial ETL pipeline engineered to validate 3,600+ municipal water utility assets against strict topological rules and physical realities. Dynamically isolates critical errors (e.g., zero-inch pipe diameters, domain violations) and feeds an interactive, exception-reporting ArcGIS Online Dashboard to accelerate technician remediation.
 
 **Tech:** FME · Python · ArcPy · ArcGIS Online · Spatial ETL · QA/QC
-🔗 [GitHub Repo](https://github.com/Mi9320/utility-network-qaqc-pipeline) &nbsp;·&nbsp; 📊 [Live Dashboard](https://www.arcgis.com/apps/dashboards/0619306fb6ec40c691bb2becd51f8ad5)
+🔗 [GitHub Repo](https://github.com/Mi9320/Utility-Network-Asset-QA-Pipeline) &nbsp;·&nbsp; 📊 [Live Dashboard](https://www.arcgis.com/apps/dashboards/0619306fb6ec40c691bb2becd51f8ad5)
 
 ---
 
