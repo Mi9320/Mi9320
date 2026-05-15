@@ -14,6 +14,22 @@ I build end-to-end ArcPy workflows — from CRS auditing and reprojection to aut
 
 ## Featured Projects
 
+### 🔹 Ottawa Microclimate & Canopy Analytics Platform
+Built a spatial ETL pipeline processing 300,000+ municipal tree records and Landsat 9 thermal imagery across 116 Ottawa neighbourhoods. Quantified the inverse correlation between urban canopy density and surface heat island intensity, published as a live ArcGIS Online dashboard.
+
+**Tech:** FME • Python (ArcPy) • ArcGIS Online • Landsat 9 • Sentinel-2
+🔗 [Live Dashboard](https://www.arcgis.com/apps/dashboards/801e9deb8ad349afabfbf8baad8b318c) &nbsp;·&nbsp; 🔗 [GitHub Repo](https://github.com/Mi9320/ottawa-microclimate-analytics)
+
+---
+
+### 🔹 Automated Spatial QA/QC Pipeline for Municipal Utility Networks
+Automated FME and ArcPy spatial ETL pipeline engineered to validate 3,600+ municipal water utility assets against strict topological rules and physical realities. Dynamically isolates critical errors (e.g., zero-inch pipe diameters, domain violations) and feeds an interactive, exception-reporting ArcGIS Online Dashboard to accelerate technician remediation.
+
+**Tech:** FME · Python · ArcPy · ArcGIS Online · Spatial ETL · QA/QC
+🔗 [GitHub Repo](https://github.com/Mi9320/utility-network-qaqc-pipeline) &nbsp;·&nbsp; 📊 [Live Dashboard](https://www.arcgis.com/apps/dashboards/0619306fb6ec40c691bb2becd51f8ad5)
+
+---
+
 ### 🔷 Toronto Urban Data Pipeline
 Automated ArcPy pipeline processing City of Toronto road network and ward boundary data. Covers CRS auditing, field standardization, UTM zone detection, reprojection to NAD83 CSRS UTM Zone 17N, and automated ward-level PDF export using `arcpy.mp`.
 
@@ -21,15 +37,6 @@ Automated ArcPy pipeline processing City of Toronto road network and ward bounda
 🔗 [GitHub Repo](https://github.com/Mi9320/toronto-urban-data-pipeline) &nbsp;·&nbsp;
 
 ---
-
-### 🔷 Guelph Municipal GIS Pipeline
-GIS data validation and asset preparation pipeline built on City of Guelph Open Data. Processes street centrelines and bus stop data, reprojects to NAD83 CSRS MTM Zone 10 (EPSG 2952), and performs ERP readiness audit identifying critical data gaps.
-
-**Tech:** Python · ArcPy · ArcGIS Pro · NAD83 CSRS MTM Zone 10 (EPSG 2952)  
-🔗 [GitHub Repo](https://github.com/Mi9320/guelph-municipal-gis-pipeline)
-
----
-
 ### 🔷 MTO Engineering Survey Validator
 Automated QA tool for validating Engineering Survey CAD submissions against Ministry of Transportation Ontario (MTO) standards. Enforces NAD83 coordinate system compliance and field schema validation.
 
